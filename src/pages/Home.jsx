@@ -11,11 +11,11 @@ function Home() {
 	return (
 		<div className="min-h-screen">
 			<Navbar />
-			<div className="relative w-full h-screen">
+			<div className="relative md:w-full w-96 ">
 				<img
 					src={hero_banner}
 					alt="hero_banner"
-					className="absolute inset-0 w-full h-full object-cover object-center"
+					className="absolute inset-0 lg:w-full w-96 object-cover object-center"
 					style={{
 						maskImage: "linear-gradient(to right, transparent, black 75%)",
 						WebkitMaskImage: "linear-gradient(to right, transparent, black 75%)"
